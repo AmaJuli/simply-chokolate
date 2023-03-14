@@ -1,0 +1,44 @@
+.section-subscribe {
+  background-color: aquamarine;
+}
+
+.container-subscribe {
+  height: 370px;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url('../../img/subcribe-mobile.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.box2 {
+  font-size: 40px;
+  color: white;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .container-subscribe {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+      ),
+      url('../../img/subcribe-tablet.jpg');
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container-subscribe {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+      ),
+      url('../../img/subcribe-desktop.jpg');
+  }
+}
